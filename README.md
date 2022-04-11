@@ -213,7 +213,7 @@ Simply add another subclass, MandelbulbDE. Have it take two integer parameters `
         return 0.5*log(r)*r/dr;
     }
 
-If you are curious about how to derive distance estimators for iterative fractals (like the Mandelbulb one given above), you should read John C. Hart's [Ray Tracing Deterministic Fractals](http://graphics.cs.illinois.edu/node/58). We are just using this example to demonstrate the power of distance estimators, so we will not dive into how to derive it here.
+If you are curious about how to derive distance estimators for iterative fractals (like the Mandelbulb one given above), you should read John C. Hart's [Ray Tracing Deterministic Fractals](https://www.cs.drexel.edu/~david/Classes/Papers/rtqjs.pdf). We are just using this example to demonstrate the power of distance estimators, so we will not dive into how to derive it here.
 
 Modify pbrt to correctly read `scenes/assignment2/mandelbulb.pbrt`, and you should be able to render a result almost identical to this:
 
@@ -274,7 +274,7 @@ In total, your submission should include the following files:
 Ensure that all your changes have been committed and pushed to GitHub:
 
     git add [files] [you] [changed]
-    git commit -m"Your commit message"
+    git commit -m "Your commit message"
     git push -u origin assignment2
     
 When you are ready to submit, create a pull request on GitHub from your `assignment2` branch to *your* master branch, then add the TAs as reviewers of the pull request. **DO NOT** merge your pull request. Keep your master branch unchanged as a basis for future assignments.
