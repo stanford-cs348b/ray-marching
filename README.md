@@ -1,5 +1,7 @@
 # HW2: A Ray Marching-Based Distance Estimator
 
+# Due Thursday, April 21st
+
 PBRT has a small number of simple intersectable shapes, namely triangles and various simple quadrics. More complicated shapes must be approximated by building them out of these simple primitives.
 
 In this assignment, we will extend PBRT to support a direct intersection method for arbitrarily complicated shapes.
