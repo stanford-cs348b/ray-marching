@@ -184,7 +184,7 @@ Now, change the lighting/camera/parameters and render an interesting shot for yo
 
 # Step 6: Mandelbulb
 
-To demonstrate the versatility of the distance estimator approach, let's see how it works with a significantly more complicated distance function, one that has fine scale geometric detail down to the limits of floating point precision. A Mandelbulb is a fractal that has infinite surface area, and is completely contained in the unit sphere.
+To demonstrate the versatility of the distance estimator approach, let's see how it works with a significantly more complicated distance function, one that has fine scale geometric detail down to the limits of floating point precision. A Mandelbulb is a fractal that has infinite surface area. See [this link](https://www.skytopia.com/project/fractal/2mandelbulb.html) to get a sense of the bounds of the fractal--a bounding sphere of radius 4 or more should do the trick.
 
 Simply add another subclass, MandelbulbDE. Have it take two integer parameters `fractalIters` (default 1000) and `mandelbulbPower` (default 8), and use the following `Evaluate()` function. 
 
